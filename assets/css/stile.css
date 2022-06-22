@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 5rem;
+}
+h1,p{
+    margin: 20px;
+}
+#counter button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+#counter button:hover{
+    background-color: rgb(200, 213, 224);
+    transition: 0.5s;
+}
+#counter{
+    margin: 10px;
+    justify-content: center;
+}
+#currentNumber{
+    margin: 0 20px;
+}
